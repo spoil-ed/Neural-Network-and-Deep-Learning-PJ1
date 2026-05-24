@@ -1,0 +1,60 @@
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# MNIST dataset and other large local data
+codes/dataset/
+codes/dataset/MNIST/
+*.idx1-ubyte.gz
+*.idx3-ubyte.gz
+
+# Trained weights, checkpoints, and experiment outputs
+codes/best_models/
+codes/saved_models/
+codes/experiments/
+*.pickle
+*.pkl
+*.npy
+*.npz
+*.ckpt
+*.pth
+*.pt
+*.onnx
+
+# Generated training/analysis images outside the report folder
+codes/*curve*.png
+codes/confusion_matrix.png
+codes/conv_kernels.png
+codes/misclassified_examples.png
+
+# LaTeX build byproducts
+codes/report/*.aux
+codes/report/*.log
+codes/report/*.out
+codes/report/*.toc
+codes/report/*.lof
+codes/report/*.lot
+codes/report/*.fls
+codes/report/*.fdb_latexmk
+codes/report/*.synctex.gz
+
+# Temporary files
+tmp/
+temp/
+modelscope_upload/
+*.tmp

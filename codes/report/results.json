@@ -1,0 +1,72 @@
+[
+  {
+    "name": "MLP SGD + WD",
+    "type": "mlp",
+    "train_acc": 0.9094,
+    "train_loss": 0.3239494437981276,
+    "val_acc": 0.897,
+    "val_loss": 0.38049452258087374,
+    "test_acc": 0.8998,
+    "test_loss": 0.34145635118821716
+  },
+  {
+    "name": "MLP Momentum + WD",
+    "type": "mlp",
+    "train_acc": 0.975,
+    "train_loss": 0.1119514944795304,
+    "val_acc": 0.939,
+    "val_loss": 0.2395989462466141,
+    "test_acc": 0.9349,
+    "test_loss": 0.21733079939497438
+  },
+  {
+    "name": "MLP SGD no WD",
+    "type": "mlp",
+    "train_acc": 0.9094,
+    "train_loss": 0.32355421477810564,
+    "val_acc": 0.897,
+    "val_loss": 0.38028066594299353,
+    "test_acc": 0.8996,
+    "test_loss": 0.341206730263969
+  },
+  {
+    "name": "CNN SGD + WD",
+    "type": "cnn",
+    "train_acc": 0.9216,
+    "train_loss": 0.2792036436831415,
+    "val_acc": 0.916,
+    "val_loss": 0.3276316051194707,
+    "test_acc": 0.9075,
+    "test_loss": 0.3130113910018471
+  },
+  {
+    "name": "CNN SGD no WD",
+    "type": "cnn",
+    "train_acc": 0.9216,
+    "train_loss": 0.27893972542743883,
+    "val_acc": 0.916,
+    "val_loss": 0.32742284857293086,
+    "test_acc": 0.9075,
+    "test_loss": 0.3127981250953781
+  },
+  {
+    "name": "CNN Momentum + WD",
+    "type": "cnn",
+    "train_acc": 0.9962,
+    "train_loss": 0.027280957088976952,
+    "val_acc": 0.961,
+    "val_loss": 0.14597567333967693,
+    "test_acc": 0.9644,
+    "test_loss": 0.12275332527430419
+  },
+  {
+    "name": "CNN Momentum no WD",
+    "type": "cnn",
+    "train_acc": 0.9962,
+    "train_loss": 0.027259960967170194,
+    "val_acc": 0.962,
+    "val_loss": 0.14583539243096835,
+    "test_acc": 0.9647,
+    "test_loss": 0.12262679782640068
+  }
+]
